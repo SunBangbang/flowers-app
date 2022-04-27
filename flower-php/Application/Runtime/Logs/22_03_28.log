@@ -1,0 +1,585 @@
+[ 2022-03-28T13:19:08+08:00 ] ::1 /css/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000716s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2022-03-28T13:20:12+08:00 ] ::1 /css/index.php/Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015871s ]
+SQL: SELECT * FROM `user` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.012905s ]
+
+[ 2022-03-28T13:21:13+08:00 ] 192.168.0.139 /css/index.php/Home/Index/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014542s ]
+SQL: SELECT * FROM `user` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.014148s ]
+
+[ 2022-03-28T14:26:28+08:00 ] 192.168.0.139 /flower-php/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006062s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given C:\phpStudy\PHPTutorial\WWW\flower-php\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001736s ]
+
+[ 2022-03-28T14:27:32+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register?name=l1&password=123&passwords=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002332s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011884s ]
+SQL: SELECT * FROM `user` WHERE (  name =  'l1' ) LIMIT 1   [ RunTime:0.011704s ]
+
+[ 2022-03-28T14:30:16+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/products
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T14:30:25+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T14:30:36+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+
+[ 2022-03-28T14:42:38+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002917s ]
+
+[ 2022-03-28T14:46:53+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002642s ]
+
+[ 2022-03-28T15:34:58+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002582s ]
+
+[ 2022-03-28T15:40:26+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+
+[ 2022-03-28T15:43:23+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register?name=l1&password=123&passwords=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+
+[ 2022-03-28T15:44:32+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register?name=l1&password=123&passwords=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+
+[ 2022-03-28T15:45:32+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register?name=l1&password=123&passwords=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002120s ]
+
+[ 2022-03-28T15:45:40+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register?name=l1&password=123&passwords=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002179s ]
+
+[ 2022-03-28T15:47:10+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+
+[ 2022-03-28T15:52:17+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002705s ]
+
+[ 2022-03-28T15:52:50+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+
+[ 2022-03-28T15:53:31+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+
+[ 2022-03-28T15:55:52+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002110s ]
+
+[ 2022-03-28T15:57:06+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+
+[ 2022-03-28T15:58:09+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+
+[ 2022-03-28T15:58:21+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+
+[ 2022-03-28T15:58:56+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+
+[ 2022-03-28T16:00:31+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+
+[ 2022-03-28T16:02:18+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+
+[ 2022-03-28T16:02:47+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003293s ]
+
+[ 2022-03-28T16:05:10+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003635s ]
+
+[ 2022-03-28T16:07:38+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002242s ]
+
+[ 2022-03-28T16:09:03+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003953s ]
+
+[ 2022-03-28T16:10:27+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+
+[ 2022-03-28T16:10:53+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+
+[ 2022-03-28T16:15:25+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+ERR: 无法加载控制器:Signup
+
+[ 2022-03-28T16:15:58+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+
+[ 2022-03-28T16:16:46+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register?name=%E5%AD%99&password=12&passwords=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+
+[ 2022-03-28T16:18:01+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register?name=%E5%AD%99&password=12&passwords=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002172s ]
+
+[ 2022-03-28T16:18:24+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+
+[ 2022-03-28T16:19:46+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003210s ]
+
+[ 2022-03-28T16:20:37+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003026s ]
+
+[ 2022-03-28T16:21:45+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002247s ]
+
+[ 2022-03-28T16:22:46+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004352s ]
+ERR: syntax error, unexpected ';', expecting ')'
+
+[ 2022-03-28T16:23:06+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+
+[ 2022-03-28T16:24:13+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004252s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 17 行.
+
+[ 2022-03-28T16:24:32+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 17 行.
+
+[ 2022-03-28T16:25:53+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002782s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 17 行.
+
+[ 2022-03-28T16:26:55+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 17 行.
+
+[ 2022-03-28T16:27:29+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007091s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 17 行.
+
+[ 2022-03-28T16:28:00+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002002s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 17 行.
+
+[ 2022-03-28T16:31:32+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002578s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 17 行.
+
+[ 2022-03-28T16:33:06+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004397s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 17 行.
+
+[ 2022-03-28T16:35:11+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 17 行.
+
+[ 2022-03-28T16:35:51+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014379s ]
+SQL: SELECT * FROM `user` WHERE (  name =  '孙' ) LIMIT 1   [ RunTime:0.019501s ]
+SQL: INSERT INTO `user` (`name`,`password`,`ctime`,`mtime`,`token`) VALUES ('孙','123456',1648456551,1648456551,'') [ RunTime:0.016208s ]
+
+[ 2022-03-28T16:37:50+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011886s ]
+SQL: SELECT * FROM `user` WHERE (  name =  '孙' ) LIMIT 1   [ RunTime:0.011420s ]
+
+[ 2022-03-28T16:38:47+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003266s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017913s ]
+SQL: SELECT * FROM `user` WHERE (  name =  'sun' ) LIMIT 1   [ RunTime:0.018834s ]
+SQL: INSERT INTO `user` (`name`,`password`,`ctime`,`mtime`,`token`) VALUES ('sun','123456',1648456727,1648456727,'') [ RunTime:0.018170s ]
+
+[ 2022-03-28T16:40:30+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002760s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.023842s ]
+SQL: SELECT * FROM `user` WHERE (  name =  '孙' ) LIMIT 1   [ RunTime:0.021206s ]
+SQL: UPDATE `user` SET `token`='a4e86223727c674c7b9a045f8d9e9a64',`mtime`=1648456830 WHERE ( id=5 ) [ RunTime:0.024731s ]
+
+[ 2022-03-28T16:46:13+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002206s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `user` WHERE (  name =  '孙' ) LIMIT 1   [ RunTime:0.017629s ]
+SQL: UPDATE `user` SET `token`='9aba1e90766fb90e23b3e40d072dce24',`mtime`=1648457173 WHERE ( id=5 ) [ RunTime:0.014057s ]
+
+[ 2022-03-28T16:46:14+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T16:48:44+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register?name=%E5%AD%99&password=123456&passwords=123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+
+[ 2022-03-28T16:49:21+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/register?name=%E5%AD%99&password=123456&passwords=123456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+
+[ 2022-03-28T16:51:05+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002487s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T16:51:07+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/products
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T16:56:50+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002924s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T16:57:21+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001936s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T16:58:01+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003203s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T16:59:08+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003023s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T16:59:22+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003793s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.020809s ]
+SQL: SELECT * FROM `user` WHERE (  name =  '孙' ) LIMIT 1   [ RunTime:0.016659s ]
+SQL: UPDATE `user` SET `token`='f760fb441cf1de7c1e48e9903f83daf8',`mtime`=1648457962 WHERE ( id=5 ) [ RunTime:0.015720s ]
+
+[ 2022-03-28T16:59:23+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003064s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:01:13+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:01:26+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012646s ]
+SQL: SELECT * FROM `user` WHERE (  name =  '孙' ) LIMIT 1   [ RunTime:0.016063s ]
+SQL: UPDATE `user` SET `token`='e4100d16da44f80189ba66a9ca219120',`mtime`=1648458086 WHERE ( id=5 ) [ RunTime:0.026295s ]
+
+[ 2022-03-28T17:01:27+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:03:41+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:04:04+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003485s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.020510s ]
+SQL: SELECT * FROM `user` WHERE (  name =  '孙' ) LIMIT 1   [ RunTime:0.023909s ]
+SQL: UPDATE `user` SET `token`='02ee42eb32ad20d2973f6d42600d6232',`mtime`=1648458244 WHERE ( id=5 ) [ RunTime:0.022297s ]
+
+[ 2022-03-28T17:04:05+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:04:48+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:08:33+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:10:31+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002129s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:15:36+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002423s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:16:31+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:16:44+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:16:57+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003706s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010992s ]
+SQL: SELECT * FROM `user` WHERE (  name =  '孙' ) LIMIT 1   [ RunTime:0.012024s ]
+SQL: UPDATE `user` SET `token`='5cd81ac43363863d63a40b095ba1c90a',`mtime`=1648459017 WHERE ( id=5 ) [ RunTime:0.014062s ]
+
+[ 2022-03-28T17:16:58+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:19:01+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002418s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:19:40+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003181s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:19:54+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004069s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014767s ]
+SQL: SELECT * FROM `user` WHERE (  name =  '孙' ) LIMIT 1   [ RunTime:0.011984s ]
+SQL: UPDATE `user` SET `token`='3c774eb1eb6917f74dc10a6346e6812e',`mtime`=1648459194 WHERE ( id=5 ) [ RunTime:0.015055s ]
+
+[ 2022-03-28T17:19:55+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:20:53+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:23:29+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001858s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:28:32+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/products
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002851s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:28:49+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004108s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012786s ]
+SQL: SELECT * FROM `user` WHERE (  name =  '孙' ) LIMIT 1   [ RunTime:0.012500s ]
+SQL: UPDATE `user` SET `token`='6feb408fa84942ee5c1145edfb2c73ab',`mtime`=1648459729 WHERE ( id=5 ) [ RunTime:0.015272s ]
+
+[ 2022-03-28T17:40:32+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003796s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:40:33+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003787s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:51:59+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003253s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:52:00+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:52:26+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002652s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-28T17:52:27+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003982s ]
+ERR: 无法加载控制器:V1
+

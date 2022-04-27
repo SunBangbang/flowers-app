@@ -1,0 +1,976 @@
+[ 2022-03-30T13:50:01+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003229s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.012122s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.011145s ]
+
+[ 2022-03-30T13:50:59+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.020059s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.012807s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.017216s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.016413s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.021105s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.014591s ]
+
+[ 2022-03-30T13:52:28+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+
+[ 2022-03-30T13:52:38+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.023609s ]
+SQL: SELECT * FROM `user` WHERE (  userName =  '孙' ) LIMIT 1   [ RunTime:0.019696s ]
+SQL: UPDATE `user` SET `token`='efb442284ea80edae5512c531de632c5',`mtime`=1648619558 WHERE ( id=5 ) [ RunTime:0.024800s ]
+
+[ 2022-03-30T13:52:39+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003040s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018601s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.012911s ]
+
+[ 2022-03-30T13:52:41+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002831s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.011540s ]
+SQL: SELECT * FROM `goodstype`  [ RunTime:0.012971s ]
+
+[ 2022-03-30T13:52:42+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011898s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.012092s ]
+
+[ 2022-03-30T13:52:44+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.013843s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.013655s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.014259s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.014667s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.013058s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.014723s ]
+
+[ 2022-03-30T13:52:46+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013453s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.012777s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.012655s ]
+SQL: SELECT * FROM `goods` WHERE (  id =  '10' ) LIMIT 1   [ RunTime:0.010856s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.011496s ]
+SQL: SELECT * FROM `shoppingcart` WHERE (  goods_id =  '10' and uid = 5 ) LIMIT 1   [ RunTime:0.010210s ]
+SQL: INSERT INTO `shoppingcart` (`goods_id`,`counts`,`ctime`,`mtime`,`uid`) VALUES (10,1,1648619566,1648619566,5) [ RunTime:0.014349s ]
+SQL: UPDATE `goods` SET `counts`=99,`mtime`=1648619566 WHERE ( id=10 ) [ RunTime:0.013273s ]
+
+[ 2022-03-30T13:53:02+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002808s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.015779s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.016391s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.016428s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.012956s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.013019s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.012056s ]
+
+[ 2022-03-30T14:53:57+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005406s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.012580s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.011332s ]
+
+[ 2022-03-30T14:54:09+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008125s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010484s ]
+SQL: SELECT * FROM `user` WHERE (  userName =  '孙' ) LIMIT 1   [ RunTime:0.010488s ]
+SQL: UPDATE `user` SET `token`='3360b6f178a9d4288850e3318d29631f',`mtime`=1648623249 WHERE ( id=5 ) [ RunTime:0.012578s ]
+
+[ 2022-03-30T14:54:10+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010843s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.011221s ]
+
+[ 2022-03-30T16:58:19+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004481s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.012024s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.012323s ]
+
+[ 2022-03-30T17:01:20+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001823s ]
+
+[ 2022-03-30T17:02:36+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+
+[ 2022-03-30T17:03:58+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003440s ]
+
+[ 2022-03-30T17:03:59+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002702s ]
+
+[ 2022-03-30T17:04:00+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+
+[ 2022-03-30T17:04:06+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002409s ]
+
+[ 2022-03-30T17:04:27+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002803s ]
+
+[ 2022-03-30T17:04:49+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002112s ]
+
+[ 2022-03-30T17:05:13+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002534s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011739s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.011416s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.012727s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.010500s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010563s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.011519s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.010548s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010698s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.010376s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011095s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.011173s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.010797s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010319s ]
+
+[ 2022-03-30T17:13:28+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018855s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.016129s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.023443s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.026255s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.021466s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.031142s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.035918s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.021409s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.016382s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.015725s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.018318s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.016006s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.018923s ]
+
+[ 2022-03-30T17:16:30+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001887s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018264s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.016604s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.013308s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.014364s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.019380s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.016731s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.019342s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.016127s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.012589s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.014004s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.014128s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.012416s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.012043s ]
+
+[ 2022-03-30T17:17:45+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018471s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.012926s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.016640s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.018306s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.021667s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.013611s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.020274s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.016780s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.019076s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.017983s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.014677s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.013575s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.019287s ]
+
+[ 2022-03-30T17:17:54+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002885s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011531s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.012211s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.011517s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.011026s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011665s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.013048s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.011986s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.011044s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.011153s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.012479s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.011610s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.011191s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011137s ]
+
+[ 2022-03-30T17:17:58+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002778s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010549s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.011565s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.011931s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.011354s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011764s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.010470s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.011936s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010459s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.013724s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010264s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.011365s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.010162s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010169s ]
+
+[ 2022-03-30T17:21:14+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010400s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.012253s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.011548s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.010675s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.017213s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.013035s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.011918s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.011422s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.011935s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011459s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.010878s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.010995s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010693s ]
+
+[ 2022-03-30T17:23:13+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011849s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.013135s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.013881s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.011453s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.015786s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.012680s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.013615s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010749s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.011525s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010402s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.010308s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.018875s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.012358s ]
+
+[ 2022-03-30T17:23:24+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003700s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.019192s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.024408s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.014910s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.014080s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.022406s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.012890s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.024292s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010359s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.011507s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010425s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.011306s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.012184s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011483s ]
+
+[ 2022-03-30T17:23:34+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010641s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.012233s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.010806s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.010677s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011178s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.011015s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.010761s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010503s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.010541s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.012214s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.012033s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.010227s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010829s ]
+
+[ 2022-03-30T17:25:15+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012626s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.022916s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.025584s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.016359s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.016734s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.016041s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.016825s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.013094s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.016151s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.015147s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.014564s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.012883s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.012981s ]
+
+[ 2022-03-30T17:25:31+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003289s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014137s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.019835s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.014110s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.013304s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.015621s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.013555s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.013092s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.011630s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.011870s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.013120s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.015376s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.011288s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011465s ]
+
+[ 2022-03-30T17:25:32+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010886s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.014847s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.016705s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.013933s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011650s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.012122s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.010792s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010698s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.010173s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010111s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.013485s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.010667s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011538s ]
+
+[ 2022-03-30T17:26:23+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003938s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.023401s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.012085s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.018913s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.018513s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.018729s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.021498s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.017483s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.014840s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.025367s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.016559s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.016642s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.016131s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.018263s ]
+
+[ 2022-03-30T17:26:27+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013254s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.010746s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011157s ]
+SQL: SELECT * FROM `goods` WHERE (  id =  '1' ) LIMIT 1   [ RunTime:0.010861s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.010502s ]
+SQL: SELECT * FROM `shoppingcart` WHERE (  goods_id =  '1' and uid = 5 ) LIMIT 1   [ RunTime:0.014756s ]
+SQL: UPDATE `shoppingcart` SET `counts`=4,`mtime`=1648632387 WHERE ( id=4 ) [ RunTime:0.022560s ]
+SQL: UPDATE `goods` SET `counts`=93,`mtime`=1648632387 WHERE ( id=1 ) [ RunTime:0.018285s ]
+
+[ 2022-03-30T17:26:52+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012737s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.019520s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.013727s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.012400s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.012887s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.013166s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.013043s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.012247s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.011892s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.013068s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.013375s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.013327s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.012062s ]
+
+[ 2022-03-30T17:27:13+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016784s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.019168s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.009664s ]
+SQL: SELECT * FROM `goods` WHERE (  id =  '1' ) LIMIT 1   [ RunTime:0.012108s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.010237s ]
+SQL: SELECT * FROM `shoppingcart` WHERE (  goods_id =  '1' and uid = 5 ) LIMIT 1   [ RunTime:0.011630s ]
+SQL: UPDATE `shoppingcart` SET `counts`=8,`mtime`=1648632433 WHERE ( id=4 ) [ RunTime:0.012206s ]
+SQL: UPDATE `goods` SET `counts`=89,`mtime`=1648632433 WHERE ( id=1 ) [ RunTime:0.012972s ]
+
+[ 2022-03-30T17:27:25+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.027156s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.028032s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.013734s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.019458s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.013391s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.020642s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.011995s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.011291s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.010505s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010771s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.011525s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.010689s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.016668s ]
+
+[ 2022-03-30T17:28:44+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002058s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.020050s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.011948s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.021512s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.014180s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.014995s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.015946s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.014430s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.012810s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.020584s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.018302s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.013263s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.012517s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.016683s ]
+
+[ 2022-03-30T17:28:53+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003324s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010659s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.010010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.228711s ]
+SQL: SELECT * FROM `goods` WHERE (  id =  '1' ) LIMIT 1   [ RunTime:0.014710s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.016389s ]
+SQL: SELECT * FROM `shoppingcart` WHERE (  goods_id =  '1' and uid = 5 ) LIMIT 1   [ RunTime:0.032486s ]
+SQL: UPDATE `shoppingcart` SET `counts`=9,`mtime`=1648632533 WHERE ( id=4 ) [ RunTime:0.015112s ]
+SQL: UPDATE `goods` SET `counts`=88,`mtime`=1648632533 WHERE ( id=1 ) [ RunTime:0.014471s ]
+
+[ 2022-03-30T17:29:00+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010599s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.010807s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.010739s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.011664s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.016248s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.013373s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.013715s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.013178s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.012002s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.020564s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.011938s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.017380s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.015121s ]
+
+[ 2022-03-30T17:29:12+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011963s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.011278s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.010898s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.012082s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011506s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.010068s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.016944s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.015097s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.015294s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.015378s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.015569s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.015638s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011791s ]
+
+[ 2022-03-30T17:29:16+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011698s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.018841s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.021824s ]
+SQL: SELECT * FROM `goods` WHERE (  id =  '1' ) LIMIT 1   [ RunTime:0.024870s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.027655s ]
+SQL: SELECT * FROM `shoppingcart` WHERE (  goods_id =  '1' and uid = 5 ) LIMIT 1   [ RunTime:0.025293s ]
+SQL: UPDATE `shoppingcart` SET `counts`=8,`mtime`=1648632555 WHERE ( id=4 ) [ RunTime:0.017897s ]
+SQL: UPDATE `goods` SET `counts`=89,`mtime`=1648632555 WHERE ( id=1 ) [ RunTime:0.023258s ]
+
+[ 2022-03-30T17:29:23+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009439s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.012957s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.010537s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.011150s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011177s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.009881s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.010127s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010215s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.009141s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.015457s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.010305s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.010133s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.013457s ]
+
+[ 2022-03-30T17:30:23+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003636s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011053s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.010990s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.012102s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.010536s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.012596s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.012108s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.017581s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.014689s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.016555s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.012426s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.010511s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.011387s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010195s ]
+
+[ 2022-03-30T17:33:38+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002972s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.022475s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.011306s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.015772s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.015502s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.024011s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.022952s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.025006s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.023693s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.028688s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.015900s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.029428s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.018187s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.014343s ]
+
+[ 2022-03-30T17:33:39+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002717s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.039316s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.021323s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.025371s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.016550s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.021299s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.012763s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.013596s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.019478s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.028369s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.014648s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.013541s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.022656s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.020551s ]
+
+[ 2022-03-30T17:38:17+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014900s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.010696s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.013247s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.016524s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010523s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.011844s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.010476s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.014736s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.014848s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.015599s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.010452s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.011580s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011427s ]
+
+[ 2022-03-30T17:38:27+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.021047s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.015350s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.013753s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.013066s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.013054s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.019491s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.018985s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.024141s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.018035s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.014029s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.018444s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.018784s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.014339s ]
+
+[ 2022-03-30T17:38:31+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003612s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.012258s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.012309s ]
+
+[ 2022-03-30T17:38:33+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003716s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.022400s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.021151s ]
+
+[ 2022-03-30T17:38:41+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/logout
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001971s ]
+
+[ 2022-03-30T17:38:42+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002034s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.012727s ]
+SQL: SELECT * FROM `goodstype`  [ RunTime:0.014052s ]
+
+[ 2022-03-30T17:38:42+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002957s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010655s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.012559s ]
+
+[ 2022-03-30T17:38:43+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010861s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.011171s ]
+
+[ 2022-03-30T17:39:35+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.022459s ]
+SQL: SELECT * FROM `user` WHERE (  userName =  '孙' ) LIMIT 1   [ RunTime:0.017518s ]
+SQL: UPDATE `user` SET `token`='c079ffa646973678088766f6674c31b6',`mtime`=1648633175 WHERE ( id=5 ) [ RunTime:0.014552s ]
+
+[ 2022-03-30T17:39:35+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010963s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.011501s ]
+
+[ 2022-03-30T17:39:37+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011304s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.012526s ]
+
+[ 2022-03-30T17:39:42+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.030641s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.020929s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.016238s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.018859s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.024638s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.018988s ]
+
+[ 2022-03-30T17:39:48+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015490s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.017274s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.012499s ]
+SQL: SELECT * FROM `goods` WHERE (  id =  '1' ) LIMIT 1   [ RunTime:0.012247s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.011892s ]
+SQL: SELECT * FROM `shoppingcart` WHERE (  goods_id =  '1' and uid = 5 ) LIMIT 1   [ RunTime:0.011740s ]
+SQL: UPDATE `shoppingcart` SET `counts`=9,`mtime`=1648633188 WHERE ( id=4 ) [ RunTime:0.036510s ]
+SQL: UPDATE `goods` SET `counts`=88,`mtime`=1648633188 WHERE ( id=1 ) [ RunTime:0.016461s ]
+
+[ 2022-03-30T17:39:54+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.016755s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.013254s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.011774s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.012456s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.011864s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.012254s ]
+
+[ 2022-03-30T17:39:56+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010242s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.010739s ]
+
+[ 2022-03-30T17:39:58+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014552s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.012882s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.013318s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.014278s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.013758s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.012736s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.012676s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.011839s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.012252s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.012647s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.011674s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.011960s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011908s ]
+
+[ 2022-03-30T17:44:19+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005914s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015524s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.010443s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.011700s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.011084s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011136s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.011285s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.012167s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010888s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.011498s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010076s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.011353s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.011132s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011095s ]
+
+[ 2022-03-30T17:44:45+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001983s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016440s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.012698s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.011594s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.011725s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011746s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.011660s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.011463s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.011952s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.011931s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011466s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.010967s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.012245s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.012926s ]
+
+[ 2022-03-30T17:47:15+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012875s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.013594s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.012818s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.011641s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011572s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.011847s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.011594s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.013517s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.012198s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.017122s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.015933s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.014123s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.013175s ]
+
+[ 2022-03-30T17:47:39+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015694s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.010644s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.011457s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.010432s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011563s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.010711s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.010337s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010817s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.010033s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010743s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.010377s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.009514s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.012166s ]
+
+[ 2022-03-30T17:47:40+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011758s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.012376s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.011042s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.010605s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010627s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.010584s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.011337s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010509s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.012564s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010950s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.010798s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.009784s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010260s ]
+
+[ 2022-03-30T17:48:08+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015249s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.011787s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.010466s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.010801s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.015461s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.009783s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.010812s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.009940s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.011830s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011493s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.010094s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.223981s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010614s ]
+
+[ 2022-03-30T17:49:57+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011457s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.015923s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.011268s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.011196s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011656s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.010802s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.011675s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.011640s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.010565s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011395s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.012328s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.011546s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010695s ]
+
+[ 2022-03-30T17:50:08+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.029268s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.022063s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.012837s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.019917s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.016928s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.018103s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.014754s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.015181s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.016072s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.017767s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.018567s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.018153s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.018874s ]
+
+[ 2022-03-30T17:50:27+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013768s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.011134s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.010769s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.010021s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.012715s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.010181s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.010142s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.012166s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.011349s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010366s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.010365s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.010042s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.014833s ]
+
+[ 2022-03-30T17:50:40+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011675s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.011208s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.012967s ]
+SQL: SELECT * FROM `shoppingcart` WHERE ( uid = 5 )  [ RunTime:0.011014s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011846s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.011062s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.011086s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010421s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.010171s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.012010s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.010206s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 10 )  [ RunTime:0.011833s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010669s ]
+

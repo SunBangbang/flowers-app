@@ -1,0 +1,1080 @@
+[ 2022-03-29T09:20:09+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002476s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T09:27:23+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T09:28:02+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T09:32:35+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T09:32:38+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/products
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003121s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T09:32:39+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003756s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T09:33:07+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012555s ]
+SQL: SELECT * FROM `user` WHERE (  name =  '孙' ) LIMIT 1   [ RunTime:0.013460s ]
+SQL: UPDATE `user` SET `token`='392b10f89440d3f9e784b2a128f0e329',`mtime`=1648517587 WHERE ( id=5 ) [ RunTime:0.020146s ]
+
+[ 2022-03-29T09:33:07+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002202s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T09:42:50+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002296s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.015902s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.021664s ]
+
+[ 2022-03-29T09:44:00+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/product_categories
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T09:44:02+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003610s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011805s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.012056s ]
+
+[ 2022-03-29T09:47:46+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011054s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.010399s ]
+
+[ 2022-03-29T09:50:56+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005779s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010793s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.012241s ]
+
+[ 2022-03-29T09:52:23+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002083s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010080s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.009528s ]
+
+[ 2022-03-29T09:54:46+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004061s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010485s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.010028s ]
+
+[ 2022-03-29T09:55:00+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011055s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.010160s ]
+
+[ 2022-03-29T09:55:05+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/products/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003511s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T09:55:32+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/products/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T09:55:34+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/products/undefined
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T09:57:28+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.026772s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.017854s ]
+
+[ 2022-03-29T10:00:49+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/products/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003438s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T10:00:55+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002258s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.017917s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.055762s ]
+
+[ 2022-03-29T10:00:57+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/products/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003481s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T10:07:07+08:00 ] 192.168.0.139 /flower-php/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given C:\phpStudy\PHPTutorial\WWW\flower-php\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2022-03-29T10:07:29+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+
+[ 2022-03-29T10:09:45+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002602s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.028616s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.026762s ]
+
+[ 2022-03-29T10:09:46+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T10:09:53+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002927s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012076s ]
+SQL: SELECT * FROM `user` WHERE (  name =  '孙' ) LIMIT 1   [ RunTime:0.010970s ]
+SQL: UPDATE `user` SET `token`='bd5f2a0ca7b82abbdd06901622fbce8f',`mtime`=1648519793 WHERE ( id=5 ) [ RunTime:0.016578s ]
+
+[ 2022-03-29T10:09:54+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002462s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T10:09:58+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011804s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.014485s ]
+
+[ 2022-03-29T10:10:07+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/products/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002735s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T10:13:27+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003351s ]
+ERR: syntax error, unexpected '^', expecting '('
+
+[ 2022-03-29T10:13:46+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+ERR: syntax error, unexpected '^', expecting '('
+
+[ 2022-03-29T10:14:59+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003372s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011555s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.011328s ]
+
+[ 2022-03-29T10:15:08+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/products/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T10:17:59+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+
+[ 2022-03-29T10:18:06+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002743s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.020405s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.018861s ]
+
+[ 2022-03-29T10:18:11+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003768s ]
+
+[ 2022-03-29T10:18:50+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.020457s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.017108s ]
+
+[ 2022-03-29T10:19:16+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+
+[ 2022-03-29T10:23:32+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010389s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.009561s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.010558s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 4 )  [ RunTime:0.010568s ]
+
+[ 2022-03-29T10:24:59+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010614s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.011594s ]
+
+[ 2022-03-29T10:42:50+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/user/info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001985s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T10:47:24+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 157 行.
+NOTIC: [8] Undefined index: token C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 158 行.
+
+[ 2022-03-29T10:48:10+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.019865s ]
+SQL: SELECT * FROM `user` WHERE (  name =  '孙' ) LIMIT 1   [ RunTime:0.016612s ]
+SQL: UPDATE `user` SET `token`='f11127ac19c419d33125ab6d4b319321',`mtime`=1648522090 WHERE ( id=5 ) [ RunTime:0.014547s ]
+
+[ 2022-03-29T10:48:11+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 157 行.
+NOTIC: [8] Undefined index: token C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 158 行.
+
+[ 2022-03-29T10:49:11+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.021290s ]
+SQL: SELECT * FROM `user` WHERE (  name =  '孙' ) LIMIT 1   [ RunTime:0.019929s ]
+SQL: UPDATE `user` SET `token`='a5479e60c0f446bfa7a5995a81798ae7',`mtime`=1648522151 WHERE ( id=5 ) [ RunTime:0.024015s ]
+
+[ 2022-03-29T10:49:12+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003755s ]
+
+[ 2022-03-29T10:54:15+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/shop_carts
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005902s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T11:24:09+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+
+[ 2022-03-29T11:25:06+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+
+[ 2022-03-29T11:26:33+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003659s ]
+
+[ 2022-03-29T11:26:35+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+
+[ 2022-03-29T15:34:50+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004970s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 165 行.
+NOTIC: [8] Undefined index: token C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 166 行.
+
+[ 2022-03-29T15:35:22+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015210s ]
+SQL: SELECT * FROM `user` WHERE (  userName =  '孙' ) LIMIT 1   [ RunTime:0.014646s ]
+
+[ 2022-03-29T15:35:33+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010603s ]
+SQL: SELECT * FROM `user` WHERE (  userName =  '孙' ) LIMIT 1   [ RunTime:0.013354s ]
+SQL: UPDATE `user` SET `token`='1a9011cc984460a238dbf25c8a9a9ca7',`mtime`=1648539333 WHERE ( id=5 ) [ RunTime:0.012627s ]
+
+[ 2022-03-29T15:35:34+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 165 行.
+NOTIC: [8] Undefined index: token C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 166 行.
+
+[ 2022-03-29T15:39:17+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010603s ]
+SQL: SELECT * FROM `user` WHERE (  userName =  '孙' ) LIMIT 1   [ RunTime:0.012847s ]
+SQL: UPDATE `user` SET `token`='a687522541df0023171709e435524e1f',`mtime`=1648539557 WHERE ( id=5 ) [ RunTime:0.012486s ]
+
+[ 2022-03-29T15:39:18+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003287s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 166 行.
+NOTIC: [8] Undefined index: token C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 167 行.
+
+[ 2022-03-29T15:41:23+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 166 行.
+NOTIC: [8] Undefined index: token C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 167 行.
+
+[ 2022-03-29T15:44:15+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.012869s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.019512s ]
+
+[ 2022-03-29T15:45:14+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002498s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.024553s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.013226s ]
+
+[ 2022-03-29T15:46:00+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.018039s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.028325s ]
+
+[ 2022-03-29T15:46:05+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.013949s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.012200s ]
+
+[ 2022-03-29T16:27:15+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002754s ]
+ERR: 非法操作:gettype
+
+[ 2022-03-29T16:33:47+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+ERR: 非法操作:gettype
+
+[ 2022-03-29T16:34:00+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002543s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.022944s ]
+SQL: SELECT * FROM `goodstype`  [ RunTime:0.013998s ]
+
+[ 2022-03-29T16:34:00+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/banners
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T16:35:31+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001823s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.016406s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.012665s ]
+
+[ 2022-03-29T16:39:38+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010733s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.014268s ]
+
+[ 2022-03-29T16:40:23+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002206s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.019437s ]
+SQL: SELECT * FROM `goodstype`  [ RunTime:0.018522s ]
+
+[ 2022-03-29T16:40:23+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/banners
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T16:42:27+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.015598s ]
+SQL: SELECT * FROM `goodstype`  [ RunTime:0.011532s ]
+
+[ 2022-03-29T16:42:27+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/banners
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T16:43:49+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+NOTIC: [8] Undefined index: id C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 166 行.
+NOTIC: [8] Undefined index: token C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\SignupController.class.php 第 167 行.
+
+[ 2022-03-29T16:44:03+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+
+[ 2022-03-29T16:44:30+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011605s ]
+SQL: SELECT * FROM `user` WHERE (  userName =  '孙' ) LIMIT 1   [ RunTime:0.011394s ]
+SQL: UPDATE `user` SET `token`='e4a17227407f4372794384072720f57c',`mtime`=1648543470 WHERE ( id=5 ) [ RunTime:0.013853s ]
+
+[ 2022-03-29T16:44:30+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+
+[ 2022-03-29T16:46:45+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003440s ]
+
+[ 2022-03-29T16:47:05+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011661s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.013286s ]
+
+[ 2022-03-29T16:51:43+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016479s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.024081s ]
+
+[ 2022-03-29T16:53:59+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002070s ]
+
+[ 2022-03-29T16:58:19+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+
+[ 2022-03-29T16:58:21+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002565s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.020390s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.014683s ]
+
+[ 2022-03-29T16:59:16+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002313s ]
+
+[ 2022-03-29T16:59:17+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002817s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.018259s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.015454s ]
+
+[ 2022-03-29T16:59:48+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+
+[ 2022-03-29T16:59:48+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.014207s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.019652s ]
+
+[ 2022-03-29T17:00:19+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011655s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.012572s ]
+
+[ 2022-03-29T17:00:20+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+
+[ 2022-03-29T17:00:34+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012939s ]
+SQL: SELECT * FROM `user` WHERE (  userName =  '孙' ) LIMIT 1   [ RunTime:0.010630s ]
+SQL: UPDATE `user` SET `token`='afcc162dd8a92e0d03ae53b8a768ee27',`mtime`=1648544433 WHERE ( id=5 ) [ RunTime:0.014750s ]
+
+[ 2022-03-29T17:00:34+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011712s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.010646s ]
+
+[ 2022-03-29T17:00:39+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010452s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.012775s ]
+
+[ 2022-03-29T17:01:57+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.020536s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.013361s ]
+
+[ 2022-03-29T17:02:55+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005823s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.020855s ]
+SQL: SELECT * FROM `goodstype`  [ RunTime:0.014264s ]
+
+[ 2022-03-29T17:02:55+08:00 ] 192.168.0.139 /flower-php/index.php/Home/v1/banners
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+ERR: 无法加载控制器:V1
+
+[ 2022-03-29T17:10:22+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.025143s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.014822s ]
+
+[ 2022-03-29T17:10:30+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+
+[ 2022-03-29T17:10:46+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006267s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.022583s ]
+SQL: SELECT * FROM `user` WHERE (  userName =  '孙' ) LIMIT 1   [ RunTime:0.021282s ]
+SQL: UPDATE `user` SET `token`='f7f64c7912fb3a59eb15cc091c5db749',`mtime`=1648545045 WHERE ( id=5 ) [ RunTime:0.022726s ]
+
+[ 2022-03-29T17:10:46+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Signup/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013586s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.014613s ]
+
+[ 2022-03-29T17:10:48+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010913s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.009978s ]
+
+[ 2022-03-29T17:10:58+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.014847s ]
+SQL: SELECT * FROM `goodstype`  [ RunTime:0.018749s ]
+
+[ 2022-03-29T17:13:51+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.014045s ]
+SQL: SELECT * FROM `goodstype`  [ RunTime:0.015007s ]
+
+[ 2022-03-29T17:14:08+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002563s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.026420s ]
+SQL: SELECT * FROM `goodstype`  [ RunTime:0.015464s ]
+
+[ 2022-03-29T17:14:09+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.015392s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.018531s ]
+
+[ 2022-03-29T17:15:29+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+
+[ 2022-03-29T17:17:05+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002289s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.012574s ]
+SQL: SELECT * FROM `goodstype`  [ RunTime:0.011993s ]
+
+[ 2022-03-29T17:17:06+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002101s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.009979s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.009878s ]
+
+[ 2022-03-29T17:17:06+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.014076s ]
+SQL: SELECT * FROM `goodstype`  [ RunTime:0.012667s ]
+
+[ 2022-03-29T17:17:07+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010684s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.011151s ]
+
+[ 2022-03-29T17:17:10+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.020209s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.019847s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.018578s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.016514s ]
+
+[ 2022-03-29T17:19:27+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010405s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010035s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.010511s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.010469s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.010821s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010380s ]
+
+[ 2022-03-29T17:24:34+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002529s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.016800s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.018375s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.014537s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.009876s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.013842s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010544s ]
+
+[ 2022-03-29T17:28:10+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.040289s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.017797s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.019016s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.015841s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.016236s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.016190s ]
+
+[ 2022-03-29T17:28:56+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010957s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.011011s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.011812s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.012237s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.010645s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010864s ]
+
+[ 2022-03-29T17:34:58+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005549s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.021027s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.012558s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.012283s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.012406s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.014012s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.012619s ]
+
+[ 2022-03-29T17:34:59+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011498s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010969s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.010561s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.010689s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.010974s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011233s ]
+
+[ 2022-03-29T17:34:59+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.014091s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.015151s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.019980s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.016331s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.016608s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.025408s ]
+
+[ 2022-03-29T17:35:00+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.019657s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.016448s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.017691s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.014828s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.014880s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.016876s ]
+
+[ 2022-03-29T17:37:03+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003505s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011773s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.011487s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.012863s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.011333s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.011583s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011045s ]
+
+[ 2022-03-29T17:38:43+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+ERR: 无法加载控制器:Shoppingcart
+
+[ 2022-03-29T17:38:55+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004412s ]
+NOTIC: [8] Undefined index: uid C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\ShoppingcartController.class.php 第 17 行.
+NOTIC: [8] Undefined index: token C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\ShoppingcartController.class.php 第 18 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\ShoppingcartController.class.php 第 19 行.
+NOTIC: [8] Undefined index: counts C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\ShoppingcartController.class.php 第 20 行.
+
+[ 2022-03-29T17:44:25+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004777s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.012676s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010617s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.012035s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.011444s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.011454s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.012272s ]
+
+[ 2022-03-29T17:44:55+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004309s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.020829s ]
+SQL: SELECT * FROM `goodstype`  [ RunTime:0.015373s ]
+
+[ 2022-03-29T17:44:56+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002198s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.020491s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.013294s ]
+
+[ 2022-03-29T17:45:32+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.015643s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010764s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.010693s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.010228s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.010269s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010203s ]
+
+[ 2022-03-29T17:46:22+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.011730s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.013617s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.012088s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.012581s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.012450s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.011550s ]
+
+[ 2022-03-29T17:46:27+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010774s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010328s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.010656s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.009691s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.010832s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010310s ]
+
+[ 2022-03-29T17:47:25+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.019588s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.017101s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.018970s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.018264s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.018259s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.018240s ]
+
+[ 2022-03-29T17:47:42+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.010660s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010792s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.011031s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.010576s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.010576s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010733s ]
+
+[ 2022-03-29T17:47:45+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+NOTIC: [8] Undefined index: uid C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\ShoppingcartController.class.php 第 17 行.
+NOTIC: [8] Undefined index: token C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\ShoppingcartController.class.php 第 18 行.
+NOTIC: [8] Undefined index: goods_id C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\ShoppingcartController.class.php 第 19 行.
+NOTIC: [8] Undefined index: counts C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\ShoppingcartController.class.php 第 20 行.
+
+[ 2022-03-29T17:48:12+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002175s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.017952s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.017378s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.017734s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.016577s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.014396s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.016361s ]
+
+[ 2022-03-29T17:48:42+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003035s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017347s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.018689s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.017848s ]
+SQL: SELECT * FROM `goods` WHERE (  id =  '1' ) LIMIT 1   [ RunTime:0.023476s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.015986s ]
+SQL: SELECT * FROM `shoppingcart` WHERE (  goods_id =  '1' and uid = 5 ) LIMIT 1   [ RunTime:0.016642s ]
+SQL: INSERT INTO `shoppingcart` (`goods_id`,`counts`,`ctime`,`mtime`,`uid`) VALUES (1,1,1648547322,1648547322,5) [ RunTime:0.019892s ]
+SQL: UPDATE `goods` SET `counts`=96,`mtime`=1648547322 WHERE ( id=1 ) [ RunTime:0.022737s ]
+
+[ 2022-03-29T17:49:21+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.019858s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.017252s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.021083s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.019486s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.017118s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.019813s ]
+
+[ 2022-03-29T17:49:40+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003282s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.010515s ]
+SQL: SELECT * FROM `goodstype`  [ RunTime:0.014803s ]
+
+[ 2022-03-29T17:49:40+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.019730s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.014331s ]
+
+[ 2022-03-29T17:49:48+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002161s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.013605s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.016152s ]
+
+[ 2022-03-29T17:49:49+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/gettype
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.011619s ]
+SQL: SELECT * FROM `goodstype`  [ RunTime:0.011413s ]
+
+[ 2022-03-29T17:49:49+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+NOTIC: [8] Undefined index: page C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 18 行.
+NOTIC: [8] Undefined index: type C:\phpStudy\PHPTutorial\WWW\flower-php\Application\Home\Controller\GoodsController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.016024s ]
+SQL: SELECT * FROM `goods` WHERE ( counts > 0  ) LIMIT 0,10   [ RunTime:0.010546s ]
+
+[ 2022-03-29T17:49:50+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Goods/goodsinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002959s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.009811s ]
+SQL: SELECT * FROM `goods` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.010314s ]
+SQL: SHOW COLUMNS FROM `goodsimg` [ RunTime:0.009893s ]
+SQL: SELECT `img_url` FROM `goodsimg` WHERE ( goods_id = 1 )  [ RunTime:0.010175s ]
+SQL: SHOW COLUMNS FROM `goodstype` [ RunTime:0.009686s ]
+SQL: SELECT * FROM `goodstype` WHERE ( id = 37 )  [ RunTime:0.010643s ]
+
+[ 2022-03-29T17:49:56+08:00 ] 192.168.0.139 /flower-php/index.php/Home/Shoppingcart/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003393s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.020632s ]
+SQL: SELECT * FROM `user` WHERE (  id =  '5' ) LIMIT 1   [ RunTime:0.013570s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.015967s ]
+SQL: SELECT * FROM `goods` WHERE (  id =  '1' ) LIMIT 1   [ RunTime:0.016264s ]
+SQL: SHOW COLUMNS FROM `shoppingcart` [ RunTime:0.016985s ]
+SQL: SELECT * FROM `shoppingcart` WHERE (  goods_id =  '1' and uid = 5 ) LIMIT 1   [ RunTime:0.016729s ]
+SQL: UPDATE `shoppingcart` SET `counts`=2,`mtime`=1648547396 WHERE ( id=4 ) [ RunTime:0.016870s ]
+SQL: UPDATE `goods` SET `counts`=95,`mtime`=1648547396 WHERE ( id=1 ) [ RunTime:0.025205s ]
+
