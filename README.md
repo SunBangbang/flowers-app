@@ -1,4 +1,3 @@
-# flowers-app
+# 鲜花配送系统
 
-*鲜花配送系统
-
+vue+php+mysql
